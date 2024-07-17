@@ -8,7 +8,7 @@ def display_image(image, title='Image', cmap_type='gray'):
     plt.title(title)
     plt.axis('off')
     plt.show()
-image = plt.imread(./input/'person.jpg')
+image = plt.imread(./images/'person.jpg')
 display_image(image)
 # Load the trained file
 tfile = data.lbp_frontal_face_cascade_filename()
